@@ -13,6 +13,12 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "lib": ["dom", "esnext", "webworker"]
+    "lib": ["dom", "esnext", "webworker"],
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": true,
+    "jsx": "react"
   }
 }
